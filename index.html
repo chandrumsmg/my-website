@@ -3,38 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: linear-gradient(135deg, #6b73ff, #000dff);
-            color: white;
-            text-align: center;
-        }
-        h1 {
-            font-size: 3rem;
-        }
-        p {
-            font-size: 1.2rem;
-        }
-        footer {
-            position: absolute;
-            bottom: 10px;
-            font-size: 0.9rem;
-        }
-    </style>
+    <title>Ventswara Franchise</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
-        <h1>Welcome to My Website!</h1>
-        <p>Thank you for visiting. Stay tuned for updates!</p>
-        <footer>&copy; 2025 Your Name</footer>
-    </div>
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Ventswara</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#franchise">Franchise</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Ventswara Franchise</h1>
+            <p>Partner with us and grow in the plywood and hardware industry.</p>
+            <a href="#franchise" class="cta-btn">Become a Franchisee</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Ventswara is a leading supplier of plywood and hardware materials. With years of experience, we have established a trusted brand in the industry. Our franchise model is designed to empower entrepreneurs to grow with us.</p>
+        </div>
+    </section>
+
+    <!-- Franchise Section -->
+    <section id="franchise" class="franchise">
+        <div class="container">
+            <h2>Franchise Opportunities</h2>
+            <div class="benefits">
+                <div class="benefit-item">
+                    <h3>Low Investment</h3>
+                    <p>Start your business with minimal initial investment and maximum support.</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Brand Recognition</h3>
+                    <p>Leverage the trusted Ventswara brand name to attract customers.</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Comprehensive Training</h3>
+                    <p>Receive complete training and support to run your franchise successfully.</p>
+                </div>
+            </div>
+            <a href="#contact" class="cta-btn">Join Us Now</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <h3>Premium Plywood</h3>
+                    <p>High-quality plywood for all your interior and exterior needs.</p>
+                </div>
+                <div class="product-item">
+                    <h3>Hardware Supplies</h3>
+                    <p>Durable and reliable hardware for construction and design.</p>
+                </div>
+                <div class="product-item">
+                    <h3>Decorative Laminates</h3>
+                    <p>Beautiful laminates to enhance your spaces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ventswara - All Rights Reserved</p>
+        </div>
+    </footer>
 </body>
 </html>
